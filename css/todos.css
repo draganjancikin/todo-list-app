@@ -12,3 +12,8 @@ body {
   margin: 0 auto;
   background-color: antiquewhite;
 }
+
+.done {
+  color: gray;
+  text-decoration: line-through;
+}
