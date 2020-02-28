@@ -1,4 +1,4 @@
-let todos = ["Kupiti ...", "Prodati ...", "Popraviti ..."];
+let todos = [];
 
 for (let i = 0; i < todos.length; i++) {
     $("ul").append('<li><span><i class="fas fa-trash-alt"></i></span> ' + todos[i] + '</li>');
