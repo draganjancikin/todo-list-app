@@ -1,7 +1,7 @@
 let todos = ["Kupiti ...", "Prodati ...", "Popraviti ..."];
 
 for (let i = 0; i < todos.length; i++) {
-    $("ul").append('<li><span>X</span> ' + todos[i] + '</li>');
+    $("ul").append('<li><span><i class="fas fa-trash-alt"></i></span> ' + todos[i] + '</li>');
 };
 
 $("ul").on("click", "li", function () {
@@ -24,7 +24,7 @@ $("input[type='text']").keypress(function (event) {
         // očisti input
         $(this).val("");
         // dodati todo u html  listu
-        $("ul").append('<li><span>X</span> ' + todoText + '</li>');
+        $("ul").append('<li><span><i class="fas fa-trash-alt"></i></span> ' + todoText + '</li>');
         
         // upiši u niz todos
         todos.push(todoText);
