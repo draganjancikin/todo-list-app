@@ -5,15 +5,21 @@
 body {
   margin: 0;
   padding: 0;
+  background: rgb(97,207,210);
+background: linear-gradient(90deg, rgba(97,207,210,1) 0%, rgba(64,183,227,1) 0%, rgba(232,233,191,1) 100%);
 }
 
 #container {
   width: 480px;
-  margin: 0 auto;
-  background-color: antiquewhite;
+  margin: 100px auto;
+  background-color: #f7f7f7;
+  box-shadow: 0px 0px 3px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 3px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 0px 0px 3px 0px rgba(0,0,0,0.75);
 }
 
 .done {
   color: gray;
   text-decoration: line-through;
 }
+
